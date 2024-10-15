@@ -4,14 +4,21 @@
 	"Category": "",
 	"Description": "",
 	"Modules": [
-		{
-			"Name": "R2",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
+    {
+      "Name": "R2",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine"
+      ]
+    },
+    {
+      "Name": "R2Editor",
+      "Type": "Editor",
+      "AdditionalDependencies": [
+        "Engine"
+      ]
+    }
 	],
 	"Plugins": [
 		{
